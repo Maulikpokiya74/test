@@ -7,15 +7,15 @@ module.exports = {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
-        type: Sequelize.INTEGER
+        type: Sequelize.STRING
       },
   
   account_type: {
-     type: Sequelize.STRING,
+     type: Sequelize.INTEGER,
      allowNull: false
    },
    description: {
-     type: Sequelize.TEXT,
+     type: Sequelize.INTEGER,
      allowNull: false
    },
    icon : {
